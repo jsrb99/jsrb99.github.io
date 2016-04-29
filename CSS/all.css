@@ -5,6 +5,10 @@ body{
     overflow: hidden;
 }
 
+.row {
+    overflow: hidden;
+}
+
 header {
     background-color: #ffffff;
     border-bottom: 1px solid #eeeeee;
