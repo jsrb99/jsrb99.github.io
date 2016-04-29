@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #fafafa;
+    overflow: hidden;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.logo{
+    font-family: 'Oswald', Helvetica;
+    font-size: 36px;
+}
+
+.logo, .nav li {
+    display: inline-block;
+}
+
+.nav li a {
+    display: block;
+    line-height: 67px;
+    padding: 0 18px;
+}
+
+.nav{
+    float: right;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.nav li ul {
+    margin:0;
+    padding: 0;
+    display: none;
+    background: white;
+    border: 1px solid #eeeeee;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.nav li ul li {
+    display: block;
+}
+
+.nav li ul li a {
+    display: block;
+    line-height: 48px;
+}
+
+.nav li:hover ul {
+    position: absolute;
+    display: block;
+}
+
+.nav li ul li a:hover {
+    color: blue;
+}
