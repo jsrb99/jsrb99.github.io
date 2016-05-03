@@ -27,12 +27,16 @@ header {
     font-size: 28px;
 }
 
-.logo, .nav li {
+.logo, .nav ul li {
     display: inline-block;
 }
 
-.nav ul li a {
+.nav li a {
     display: block;
+}
+
+.nav{
+    float: right;
 }
 
 .nav {
@@ -42,7 +46,7 @@ header {
     display: inline-block;
 }
 
-.nav ul li ul {
+.nav li ul {
     margin:0;
     padding: 0;
     display: none;
@@ -53,20 +57,20 @@ header {
     border-bottom-right-radius: 5px;
 }
 
-.nav ul li ul li {
+.nav li ul li {
     display: block;
 }
 
-.nav ul li ul li a {
+.nav li ul li a {
     display: block;
     line-height: 48px;
 }
 
-.nav ul li:hover ul {
+.nav li:hover ul {
     position: absolute;
     display: block;
 }
 
-.nav ul li ul li a:hover {
+.nav li ul li a:hover {
     color: blue;
 }
