@@ -33,6 +33,8 @@ header {
 
 .nav li a {
     display: block;
+    line-height: 67px;
+    padding: 0 18px;
 }
 
 .nav{
