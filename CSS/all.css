@@ -65,16 +65,12 @@ header {
 
 .nav li ul li a {
     display: block;
-    line-height: 48px;
+    line-height: 3rem;
 }
 
 .nav li:hover ul {
     position: absolute;
     display: block;
-}
-
-.nav li:hover {
-    color: #2E468A;
 }
 
 .nav li ul li a:hover {
