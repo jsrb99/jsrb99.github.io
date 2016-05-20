@@ -73,7 +73,7 @@ header {
     display: block;
 }
 
-.nav li ul li:hover {
+.nav li ul:hover {
     color: #2E468A;
 }
 
