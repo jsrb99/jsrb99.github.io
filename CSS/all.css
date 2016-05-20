@@ -1,6 +1,5 @@
 body{
     font-family: 'Oswald', sans-serif;
-    font-size: 18px;
     background-color: #fafafa;
     overflow: hidden;
 }
@@ -33,11 +32,12 @@ header {
 
 .nav li a {
     display: block;
+    font-size: 28px;
     line-height: 67px;
     padding: 0 18px;
 }
 
-.nav{
+.nav {
     float: right;
 }
 
@@ -73,6 +73,10 @@ header {
     display: block;
 }
 
+.nav li ul li:hover {
+    color: #2E468A;
+}
+
 .nav li ul li a:hover {
-    color: blue;
+    color: #4F68C4;
 }
